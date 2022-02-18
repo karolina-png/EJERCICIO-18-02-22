@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.container-body {
+    display: flex;
+    flex-flow:column;
+    height: 100%;
+}
+
+
+
+#barra {
+  
+    height: 4rem;
+    width: 100vw;
+    background: green;
+}
+
+.container-main {
+    display: flex;
+    flex-flow: row;
+    height:100%
+
+} 
+
+#index {
+    height: 100vh;
+   background-color: rgb(36, 121, 170) ;
+   width: 4rem;
+   position:fixed;
+   
+   
+
+}
+
+#search {
+    
+    background-color: pink
+  
+ 
+}
+
+main {
+    background-color: pink;
+    height: 100vh;
+    flex: 1;
+    flex-wrap: wrap;
+    
+}
+
+#products {
+    
+    height: 20rem;
+    padding: 2rem;
+    margin-left: 1rem;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+    
+
+}
+
+article{
+    border: 1px solid black;
+    height: 5rem;
+    background-color: rgb(156, 118, 187);
+    width: 20rem;
+    margin: 30px;
+    
+ 
+    
+    
+}
+
+#shop_car {
+    border: 1px solid black;
+    height: 100%;
+    flex: 0.4;
+
+    
+}
+#pp {
+    border: 1px solid aqua;
+    background-color: aqua;
+    margin: 0;
+}
+
+#sale_button {
+    border: 1px solid red;
+    background-color: red;
+}
+
+#cancel_button {
+    border: 1px solid pink;
+    background-color: pink;
+}
+
+footer {
+width:100%;
+position: fixed;
+bottom: 2rem;
+background-color: thistle;
+
+}
